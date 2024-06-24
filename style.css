@@ -1,16 +1,48 @@
-@media screen and (min-width: 480px) {
-   button{
-      background-color: brown;
-      height: 30px;
-      width: 65px;
-      margin-bottom: 40px;
-   }
-   h1{
-      color: black;
-      width: 100px;
-   }
-   h2{
-      background-color: blueviolet;
-      height: 160px;
-   }
-}
+@media screen and (max-width: 480px) {
+    button{
+       background-color: rgb(193, 255, 193);
+       height: 30px;
+       width: 65px;
+       margin-bottom: 40px;
+    }
+    h1{
+       color: black;
+       width: 100px;
+    }
+    h2{
+        background-color: purple;
+       height: 160px;
+    }
+    h3{
+       background-color: antiquewhite;
+       height: 160px;
+    }
+    h4{
+        background-color: bisque;
+        height: 160px;
+    }
+ }
+ @media screen and (min-width: 700px) {
+    button{
+       background-color: rgb(255, 252, 223);
+       height: 30px;
+       width: 65px;
+       margin-bottom: 40px;
+    }
+    h1{
+       color: black;
+       width: 100px;
+    }
+    h2{
+        background-color: rgb(235, 119, 119);
+       height: 160px;
+    }
+    h3{
+       background-color: rgb(215, 250, 234);
+       height: 160px;
+    }
+    h4{
+        background-color: rgb(212, 196, 255);
+        height: 160px;
+    }
+ }
