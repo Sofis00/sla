@@ -1,0 +1,16 @@
+@media screen and (min-width: 480px) {
+   button{
+      background-color: brown;
+      height: 30px;
+      width: 65px;
+      margin-bottom: 40px;
+   }
+   h1{
+      color: black;
+      width: 100px;
+   }
+   h2{
+      background-color: blueviolet;
+      height: 160px;
+   }
+}
